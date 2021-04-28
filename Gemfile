@@ -23,6 +23,7 @@ gem 'graphql', '1.9.18'
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
 gem 'rake' , '>= 0.9.2'
+gem 'graphiql-rails'
 
 group :development, :test do
   gem 'pry'
@@ -30,7 +31,6 @@ end
 
 group :development do
   gem 'listen', '~> 3.2'
-  gem 'graphiql-rails'
   gem 'faker'
   gem 'capistrano', '~> 3.11'
   gem 'capistrano-rails', '~> 1.4'
