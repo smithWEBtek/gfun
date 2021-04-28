@@ -22,7 +22,7 @@ gem 'rack-cors'
 gem 'graphql', '1.9.18'
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
-
+gem 'rake'
 
 group :development, :test do
   gem 'pry'
