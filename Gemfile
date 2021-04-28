@@ -20,6 +20,9 @@ gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rack-cors'
 gem 'graphql', '1.9.18'
+gem 'ed25519', '>= 1.2'
+gem 'bcrypt_pbkdf', '>= 1.0'
+
 
 group :development, :test do
   gem 'pry'
@@ -31,6 +34,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'graphiql-rails'
   gem 'faker'
+  gem 'capistrano', '~> 3.11'
+  gem 'capistrano-rails', '~> 1.4'
+  gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'capistrano-rvm', '~> 0.1.2'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
